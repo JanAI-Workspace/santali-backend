@@ -1,0 +1,11 @@
+flask
+flask-cors
+huggingface_hub
+datasets
+soundfile
+librosa
+numpy
+pytesseract
+opencv-python-headless
+Pillow
+gitpython
