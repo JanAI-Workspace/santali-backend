@@ -14,5 +14,13 @@ def health_check():
         'version': '1.0.0'
     })
 
+@app.route('/api/submit', methods=['POST'])
+def submit_data():
+    data = request.json
+    return jsonify({
+        'message': 'Data received successfully!',
+        'data': data
+    })
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
