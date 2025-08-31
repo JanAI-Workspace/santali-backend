@@ -1,0 +1,8 @@
+santali-backend/
+ ├─ app.py
+ ├─ requirements.txt
+ ├─ .gitignore
+ ├─ README.md
+ ├─ uploads/           (blank folder; app khud create karega)
+ ├─ .replit            (Replit run config)
+ └─ replit.nix         (Replit ke liye system deps)
